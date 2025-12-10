@@ -33,10 +33,10 @@ tar -czf gtdb_latest_dump.tar.gz *.dmp
 
 ## How to use GTDB databases in Ete4
 
-Let's download release 207 as an example:
+Let's download release 226 as an example:
 
 ```sh
-wget https://github.com/etetoolkit/ete-data/raw/main/gtdb_taxonomy/gtdb207/gtdb207dump.tar.gz
+wget https://github.com/etetoolkit/ete-data/raw/main/gtdb_taxonomy/gtdb226/gtdb226dump.tar.gz
 ```
 
 (Note that we download the raw dump file, `.../ete-data/raw/main/...`,
@@ -47,5 +47,5 @@ We can then run the following python code to use it in Ete:
 ```py
 from ete4 import GTDBTaxa
 gtdb = GTDBTaxa()
-gtdb.update_taxonomy_database("./gtdb207dump.tar.gz")
+gtdb.update_taxonomy_database("./gtdb226dump.tar.gz")
 ```
