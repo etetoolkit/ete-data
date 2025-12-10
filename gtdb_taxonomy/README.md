@@ -47,5 +47,5 @@ We can then run the following python code to use it in Ete:
 ```py
 from ete4 import GTDBTaxa
 gtdb = GTDBTaxa()
-gtdb.update_taxonomy_database("./gtdb226dump.tar.gz")
+gtdb.update_taxonomy_database('gtdb226dump.tar.gz')
 ```
