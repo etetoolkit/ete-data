@@ -17,6 +17,7 @@ URL_MD5SUM = 'https://data.gtdb.ecogenomic.org/releases/latest/MD5SUM.txt'
 
 
 def main():
+
     names = ['bac120_taxonomy', 'ar53_taxonomy']
 
     print('Checking status of', names, '...')
